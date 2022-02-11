@@ -1,8 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "Tp2/src/tp2",
+        "Tp2/src",
         "Labs2/src",
         "JavaApplication10/src",
-        "Tp2/src"
+        "JavaApplication14/src"
     ]
 }

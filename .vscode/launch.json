@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Switchs",
+            "request": "launch",
+            "mainClass": "Switchs",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch AlgoMidterm",
             "request": "launch",
             "mainClass": "AlgoMidterm",

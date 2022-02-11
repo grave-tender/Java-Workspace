@@ -29,6 +29,7 @@ public class AlgoMidterm {
         System.out.println("La valeur maximale est: "+ max);
     }
 
+    //test
     public static int calculateMax(int a, int b, int c) {
         if(a > b && a > c) return a;
         if(b > c) return b;
