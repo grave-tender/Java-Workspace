@@ -1,6 +1,6 @@
 public class Tableaux {
     public static void main(String[] args) {
-        int nb[] = {15,20,10,5,35,14};
+        int nb[] = {15, 20, 10, 5, 35, 14};
         int posMax = 0;
 
         for (int i = 0; i < nb.length; i++){
