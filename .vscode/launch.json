@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TP_Arrays",
+            "request": "launch",
+            "mainClass": "TP_Arrays",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tableaux2",
+            "request": "launch",
+            "mainClass": "Tableaux2",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch Tableaux",
             "request": "launch",
             "mainClass": "Tableaux",
