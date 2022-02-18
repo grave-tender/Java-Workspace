@@ -61,7 +61,7 @@ public class MenuJavaArrayList {
 
     //Liste les etudiants, param une Liste<Etudiant>
     public static void listerEleves(List<Etudiant> liste){
-        System.out.println("Voici la liste des Etudiants");
+        System.out.println("\nVoici la liste des Etudiants");
 
         for(int i=0; i<liste.size(); i++){
             System.out.println("\t"+(i+1)+" - " + liste.get(i).getNom() +" "+ liste.get(i).getPrenom());
@@ -81,7 +81,7 @@ public class MenuJavaArrayList {
 
     //Liste les cours, param une Liste<Cours>
     public static void listerCours(List<Cours> liste){
-        System.out.println("Voici la liste des Cours");
+        System.out.println("\nVoici la liste des Cours");
 
         for(int j=0; j<liste.size(); j++){
             System.out.println("\t"+(j+1) +" - ID: "+ liste.get(j).getCoursID() +"\tnom du cours: "+ liste.get(j).getNom());
