@@ -8,7 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MenuJavaArrayList {
+
+    //Rends sc disponnible partout
     static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         int option = 0;
 
