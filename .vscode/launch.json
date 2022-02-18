@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MenuJavaArrayList",
+            "request": "launch",
+            "mainClass": "menujavaarraylist.MenuJavaArrayList",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenuArrayList",
+            "request": "launch",
+            "mainClass": "menuArrayList.MenuArrayList",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenuArrayList",
+            "request": "launch",
+            "mainClass": "MenuArrayList",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayListes",
             "request": "launch",
             "mainClass": "MyJavaArrays.ArrayListes",
