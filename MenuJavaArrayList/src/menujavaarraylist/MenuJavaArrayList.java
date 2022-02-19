@@ -36,6 +36,7 @@ public class MenuJavaArrayList {
                     listerCours(listeCours);
                     break;
                 default:
+                    option = 5;
                     System.out.println("Bonne journee!\n");
             }
         }    
