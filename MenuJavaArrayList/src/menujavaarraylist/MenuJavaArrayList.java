@@ -42,7 +42,9 @@ public class MenuJavaArrayList {
         }    
     }
 
-    //Liste les options
+    /**
+     * Montre les menus
+     */
     public static void voirMenu(){
         System.out.println("\nChoissisez l'une des options suivantes:");
         System.out.println("\t1: Ajouter un nouvel Etudiant");
@@ -52,7 +54,10 @@ public class MenuJavaArrayList {
         System.out.println("\t5: Quitter");
     }
 
-    //Ajoute un etudiant, param une Liste<Etudiant>
+    /**
+     * Ajoute un etudiant, param une Liste<Etudiant>
+     * @param List<Etudiant> liste
+     */
     public static void ajoutEleve(List<Etudiant> liste){
         System.out.println("Quel est le nom de l'Etudiant?");
         String nom = sc.next();
@@ -63,7 +68,10 @@ public class MenuJavaArrayList {
         System.out.println("Eleve ajoute avec succes!");
     }
 
-    //Liste les etudiants, param une Liste<Etudiant>
+    /**
+     * Liste les etudiants, param une Liste<Etudiant>
+     * @param List<Etudiant> liste
+     */
     public static void listerEleves(List<Etudiant> liste){
         System.out.println("\nVoici la liste des Etudiants");
 
@@ -72,7 +80,10 @@ public class MenuJavaArrayList {
         }
     }
 
-    //Ajoute un cours, param une Liste<Cours>
+    /**
+     * Ajoute un cours, param une Liste<Cours>
+     * @param List<Cours> liste
+     */
     public static void ajoutCours(List<Cours> liste){
         System.out.println("Quel est l'ID du Cours?");
         String coursID = sc.next();
@@ -83,7 +94,10 @@ public class MenuJavaArrayList {
         System.out.println("Cours ajoute avec succes!");
     }
 
-    //Liste les cours, param une Liste<Cours>
+    /**
+     * Liste les cours, param une Liste<Cours>
+     * @param Liste<Cours> liste
+     */
     public static void listerCours(List<Cours> liste){
         System.out.println("\nVoici la liste des Cours");
 
