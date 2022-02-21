@@ -19,4 +19,8 @@ public class StudentDaoImp implements Dao{ //implements veut dire que cette clas
     public List<Student> findAll(){
         return listStudents;
     }
+
+    public Student findById(int i) {
+        return listStudents.get(i);
+    }
 }

@@ -21,6 +21,9 @@ public class InterfacesJava1 {
         for(Student s : students) {
             System.out.println(s.getFirstName());
         }
+
+        Student moi = dao.findById(0);
+        System.out.println(moi.getFirstName());
     }
     
 }

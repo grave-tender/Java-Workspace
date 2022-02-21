@@ -9,5 +9,7 @@ public interface Dao {
 
     public abstract void create(Student student); //recoit un etudiant et ne retourne rien. Default public
     
+    public Student findById(int i);
+    
     public List<Student> findAll(); //Signature
 }
