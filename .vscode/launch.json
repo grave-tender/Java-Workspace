@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterfacesJava1",
+            "request": "launch",
+            "mainClass": "interfacesjava1.InterfacesJava1",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch MenuJavaArrayList",
             "request": "launch",
             "mainClass": "menujavaarraylist.MenuJavaArrayList",
