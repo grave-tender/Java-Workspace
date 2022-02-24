@@ -20,11 +20,11 @@ public class App {
         Employee e1 = new Employee(1 , "Lazri", "Toufik");
         Employee e2 = new Employee(2, "RD", "David");
 
-        //instantiation des instances
+        //instantiation des interfaces
         CoursDao daoCours = new CoursDaoImp();
         EmployeeDao daoEmployee = new EmployeeDaoImp();
 
-        //ajout des 
+        //ajout des valeurs
         daoCours.create(c1);
         daoCours.create(c2);
         daoCours.create(c3);
