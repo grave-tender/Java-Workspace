@@ -20,4 +20,12 @@ public class CoursDaoImp implements CoursDao{
     public List<Cours> findAll(){
         return listeCours;
     }
+
+    public Cours findById(int i) {
+        return listeCours.get(i);
+    }
+
+    public void deleteById(int i) {
+        listeCours.remove(i);
+    }
 }
