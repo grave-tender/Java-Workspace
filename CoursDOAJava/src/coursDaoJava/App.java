@@ -57,5 +57,14 @@ public class App {
         //effacer un element par indice
         daoCours.deleteById(2);
         daoEmployee.deleteById(1);
+
+        //re-affichage des listes
+        for(Cours c: listeCours) {
+            System.out.println("coursID: "+ c.getCoursID() + "\tcoursNom: "+ c.getCoursNom());
+        }
+
+        for(Employee e: listEmployees){
+            System.out.println("id: "+ e.getId() +"\tprenom: "+ e.getPrenom() +"\tnom: "+ e.getNom());
+        }
     }
 }
