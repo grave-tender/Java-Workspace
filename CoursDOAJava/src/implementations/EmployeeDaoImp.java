@@ -23,7 +23,7 @@ public class EmployeeDaoImp implements EmployeeDao{
     private int getPositionEmployeeById(int id){
         for(int i = 0; i < listEmployees.size(); i++){
             Employee em = listEmployees.get(i);
-            if(em.getId()==i) return i;
+            if(em.getId()==id) return i;
         }
         throw new IllegalStateException("Employee non trouvé");
     }
