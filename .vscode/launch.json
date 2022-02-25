@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExerciseHashMap",
+            "request": "launch",
+            "mainClass": "exercisehashmap.ExerciseHashMap",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch TEST",
+            "request": "launch",
+            "mainClass": "test.TEST",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch JavaApplicationIterface",
             "request": "launch",
             "mainClass": "ProjectInterface.JavaApplicationIterface",
