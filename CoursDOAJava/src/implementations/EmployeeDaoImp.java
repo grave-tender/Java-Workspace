@@ -20,11 +20,21 @@ public class EmployeeDaoImp implements EmployeeDao{
         return listEmployees;
     }
 
-    public Employee findById(int i) {
-        return listEmployees.get(i);
+    private int getPositionEmployeeById(int id){
+        for(int i = 0; i < listEmployees.size(); i++){
+            Employee em = listEmployees.get(i);
+            if(em.getId()==i) return i;
+        }
+        throw new IllegalStateException("Employee non trouvé");
     }
 
-    public void deleteById(int i) {
-        listEmployees.remove(i);
+    public Employee findById(int id) {
+        int pos = getPositionEmployeeById(id);
+        return listEmployees.get(pos);
+    }
+
+    public void deleteById(int id) {
+        int pos = getPositionEmployeeById(id);
+        listEmployees.remove(pos);
     }
 }

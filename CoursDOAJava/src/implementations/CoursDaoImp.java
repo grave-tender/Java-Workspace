@@ -21,11 +21,25 @@ public class CoursDaoImp implements CoursDao{
         return listeCours;
     }
 
-    public Cours findById(int i) {
-        return listeCours.get(i);
+    private int getCoursPosByCoursId(String coursId){
+        for(int i = 0; i < listeCours.size(); i++){
+            Cours cr = listeCours.get(i);
+            if(cr.getCoursID().equals(coursId)) return i;
+        }
+        throw new IllegalArgumentException("Id n'a pas été trouvé'");
     }
 
-    public void deleteById(int i) {
-        listeCours.remove(i);
+    public Cours findById(String coursID) {
+        int pos = getCoursPosByCoursId(coursID);
+        return listeCours.get(pos);
+    }
+
+    /**
+     * efface le premier Cours qui match le coursID
+     * @param String coursID
+     */
+    public void deleteById(String coursID) {
+        int pos = getCoursPosByCoursId(coursID);
+        listeCours.remove(pos);
     }
 }

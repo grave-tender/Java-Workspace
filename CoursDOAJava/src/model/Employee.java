@@ -9,10 +9,10 @@ public class Employee {
     private String prenom;
 
     /**
-     * Constructeur d'Employee
-     * @param id
-     * @param nom
-     * @param prenom
+     * Constructeur des instances d'Employees
+     * @param int id
+     * @param String nom
+     * @param String prenom
      */
     public Employee(int id, String nom, String prenom) {
         this.id = id;
@@ -21,15 +21,15 @@ public class Employee {
     }
 
     /**
-     * getter de l'id de l'Employee
-     * @return 
+     * getter de l'id de l'instance de l'Employee
+     * @return int id
      */
     public int getId(){
         return id;
     }
 
     /**
-     * getter du nom de l'Employee
+     * getter du nom de l'instance de l'Employee
      * @return String nom
      */
     public String getNom(){

@@ -48,15 +48,16 @@ public class App {
         }
 
         //trouver Instance par indice
-        Cours coursTrouvee = daoCours.findById(1);
+        Cours coursTrouvee = daoCours.findById("1");
         System.out.println("fetched coursID: "+ coursTrouvee.getCoursID() +"\tcoursNom: "+ coursTrouvee.getCoursNom());
     
-        Employee employeeTrouvee = daoEmployee.findById(0);
-        System.out.println("fetched employeeId: "+ employeeTrouvee.getId() +" employeePrenom: "+ employeeTrouvee.getPrenom() +" employeeNom: "+ employeeTrouvee.getNom());
+        Employee employeeTrouvee = daoEmployee.findById(1);
+        System.out.println("fetched employeeId: "+ employeeTrouvee.getId() +"\temployeePrenom: "+ employeeTrouvee.getPrenom() +" employeeNom: "+ employeeTrouvee.getNom());
     
         //effacer un element par indice
-        daoCours.deleteById(2);
-        daoEmployee.deleteById(1);
+        System.out.println("Effacement de certains elements...");
+        daoCours.deleteById("2");
+        daoEmployee.deleteById(2);
 
         //re-affichage des listes
         for(Cours c: listeCours) {

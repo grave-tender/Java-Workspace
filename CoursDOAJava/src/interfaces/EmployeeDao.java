@@ -7,7 +7,7 @@ public interface EmployeeDao {
 
     List<Employee> findAll();
 
-    Employee findById(int i);
+    Employee findById(int id);
 
-    void deleteById(int i);
+    void deleteById(int id);
 }
