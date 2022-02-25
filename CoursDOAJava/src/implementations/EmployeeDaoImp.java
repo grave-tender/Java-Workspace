@@ -13,6 +13,10 @@ public class EmployeeDaoImp implements EmployeeDao{
     }
 
     public void create(Employee employee) {
+        for(Employee em : listEmployees){
+            int idNouvelEmployee = employee.getId();
+            if(em.getId() == idNouvelEmployee) throw new IllegalStateException("cet Employee existe deja");
+        }
         listEmployees.add(employee);
     }
 

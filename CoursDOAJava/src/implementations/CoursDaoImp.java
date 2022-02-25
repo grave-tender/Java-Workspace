@@ -14,6 +14,10 @@ public class CoursDaoImp implements CoursDao{
     }
 
     public void create(Cours cours){
+        for(Cours cr : listeCours){
+            String idNouveauCours = cours.getCoursID();
+            if(cr.getCoursID().equals(idNouveauCours)) throw new IllegalArgumentException("cet element avec cet ID existe deja");
+        }
         listeCours.add(cours);
     }
 
