@@ -28,7 +28,9 @@ public class ExerciseHashMap {
         String choix = sc.nextLine();
         
         //gestion du choix
+        choix = choix.substring(0, 1).toUpperCase() + choix.substring(1); //pour Yang Li
         String capitale = pays.get(choix);
+
         if(capitale != null)
             System.out.println("La capitale du "+ choix + " est " + capitale);
         else
