@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TPFinal",
+            "request": "launch",
+            "mainClass": "tpfinal.TPFinal",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quiz",
+            "request": "launch",
+            "mainClass": "quiz.Quiz",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch ExerciseHashMap",
             "request": "launch",
             "mainClass": "exercisehashmap.ExerciseHashMap",
