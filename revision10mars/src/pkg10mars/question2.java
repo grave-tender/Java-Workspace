@@ -11,7 +11,7 @@ public class question2 extends utility {
     }
 
     private static void calcul() {
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 9; i++) {
             somme += i;
         }
     }
