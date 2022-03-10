@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "pkg10mars.Main",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch TPFinal",
+            "request": "launch",
+            "mainClass": "TPFinal",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "pkg7mars.Main",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
+            "name": "Launch mars",
+            "request": "launch",
+            "mainClass": "mars.mars",
+            "projectName": "Java Workspace_d45ad757"
+        },
+        {
+            "type": "java",
             "name": "Launch TPFinal",
             "request": "launch",
             "mainClass": "tpfinal.TPFinal",
