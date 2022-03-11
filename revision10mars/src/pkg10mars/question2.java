@@ -7,7 +7,7 @@ public class question2 extends utility {
     public static void sommeDesValeurs(){
         calcul();
 
-        println("\nLa somme des valeurs de 1 a 10 est: "+ somme);
+        println("\nLa somme des valeurs de 1 a 9 est: "+ somme);
     }
 
     private static void calcul() {
